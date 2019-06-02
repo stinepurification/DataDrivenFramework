@@ -22,8 +22,8 @@ public class LoginTest {
 		System.out.println(url);
 		System.out.println(userName);
 		System.out.println(password);
-//		WebDriver driver = BrowserFactory.startBrowser(url);
-//		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
-//		loginPage.login(userName, password);
+		WebDriver driver = BrowserFactory.startBrowser(url);
+		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+		loginPage.login(userName, password);
 	}
 }
