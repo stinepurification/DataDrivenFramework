@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BrowserFactory {
 	
-	public static WebDriver driver;
+	 static WebDriver driver;
 	
 	public static WebDriver startBrowser(String url) {
 		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
